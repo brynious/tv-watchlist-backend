@@ -6,14 +6,14 @@ const TvSeriesSchema = new mongoose.Schema({
     required: true,
   },
   tmdb_id: {
-    type: String,
+    type: Number,
     required: true,
   },
   overview: {
     type: String,
   },
   first_air_date: {
-    type: "String",
+    type: String,
   },
   updated_date: {
     type: Date,
