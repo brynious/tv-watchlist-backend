@@ -7,6 +7,7 @@ const TvSeriesSchema = new mongoose.Schema({
   },
   tmdb_id: {
     type: Number,
+    unique: true,
     required: true,
   },
   overview: {
