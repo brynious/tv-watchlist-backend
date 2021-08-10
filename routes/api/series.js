@@ -7,7 +7,7 @@ const TvSeries = require("../../models/TvSeries");
 // @route GET api/series/test
 // @description tests series route
 // @access Public
-// router.get("/test", (req, res) => res.send("tv series route testing!"));
+router.get("/test", (req, res) => res.send("tv series route testing!"));
 
 // @route GET api/series/status=:status
 // @description Get all series that match status
